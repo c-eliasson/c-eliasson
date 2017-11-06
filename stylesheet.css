@@ -1,4 +1,57 @@
+@font-face {
+    font-family: 'OstrichSansBold';
+    src:  url('fonts/ostrich-sans-bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'OstrichSansLight';
+    src:  url('fonts/ostrich-sans-light.woff') format('woff');
+}
+
 body {
+    background: #f7f7f7;
+    color: #292929;
+    font-family: 'Open Sans Condensed', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+h1 {
+    font-family: 'OstrichSansBold', sans-serif;
+    font-size: 110px;
+    margin: 0;
+}
+
+h2 {
+    color: #FC4349;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+a {
+    color: #FC4349;
+    text-decoration: none;
+}
+
+main {
+    width: 60%;
+    margin: 15% auto 0;
+}
+
+.presentation {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.social {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.social svg {
+    height: 45px;
 }
