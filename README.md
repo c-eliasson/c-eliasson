@@ -1,2 +1,2 @@
-# c-eliasson
-Personal Profile
+# Pesonal profile
+Repository for personal profile page @ christofereliasson.eu
