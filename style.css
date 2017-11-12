@@ -118,7 +118,7 @@ main {
     fill: #FC4349;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
     h1 {
         font-size: 80px;
     }
@@ -139,5 +139,37 @@ main {
     .social .icon {
         height: 35px;
         width: 35px;
+    }
+}
+
+@media (max-width: 450px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .presentation {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .social {
+        margin-top: 40px;
+    }
+    
+    .social li {
+        margin: 0 5px 10px;
+    }
+
+    .social svg {
+        height: 30px;
+    }
+    
+    .social .icon {
+        height: 30px;
+        width: 30px;
     }
 }
